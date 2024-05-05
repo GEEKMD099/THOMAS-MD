@@ -12,7 +12,7 @@ global.owner = [
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || 'Ibrahim Adams'
+global.author = process.env.OWNER_NAME || 'THOMAS Adams'
 global.botname = process.env.BOT_NAME || 'THOMAS;SHELBY-MD'
  
  
