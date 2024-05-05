@@ -9,7 +9,7 @@ let teks = `╭━〔 *TagAll* 〕━⬣\n\n${oi}\n\n`
 for (let mem of participants) {
 teks += `┃⊹ @${mem.id.split('@')[0]}\n`}
 teks += `┃\n`
-teks += `┃ OREO BOT 🍪🥵\n`
+teks += `┃ 𝑻𝑯𝑶𝑴𝑨𝑺 BOT 🍪🥵\n`
 teks += `╰━━━━━━━━━━⬣`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
